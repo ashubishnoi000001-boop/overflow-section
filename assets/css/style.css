@@ -11,99 +11,65 @@
 
         section {
             background-color: rgba(29, 26, 26, 1);
-            min-height: 100vh;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
         }
 
         .container-hero {
-            max-width: 1920px;
-            width: 100%;
+            max-width: 1940px;
+            padding-left: 20px;
             padding-bottom: 66px;
             padding-top: 110px;
         }
 
         .row-hero {
-            display: flex;
-            align-items: center;
-            justify-content: right;
             gap: 55px;
         }
 
         .text-frame {
             max-width: 660px;
-            width: 100%;
             min-height: 569px;
-            display: flex;
-            flex-direction: column;
-            gap: 48px;
         }
 
         .head-text {
-            font-weight: 600;
             font-size: 48px;
             line-height: 128%;
-            color: rgba(255, 255, 255, 1);
         }
 
         .para {
-            font-weight: 400;
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 18px;
             line-height: 180%;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.7);
         }
 
         .list-no {
-            font-weight: 600;
             font-size: 22px;
             line-height: 150%;
-            color: black;
         }
 
         .hvr-head {
-            font-weight: 600;
             font-size: 22px;
             line-height: 150%;
-            color: white;
         }
 
         .hvr-para {
-            font-weight: 400;
             font-size: 18px;
             line-height: 180%;
             color: rgba(255, 255, 255, 0.7);
-        }
-
-        .left-box2 {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+            /* font-weight: 400; */
         }
 
         .hvr-list {
-            padding-left: 20px;
-            width: 100%;
+            padding: 20px;
             height: 92px;
             border-radius: 46px;
             background-color: rgba(21, 19, 19, 1);
-            display: flex;
-            align-items: center;
-            flex-direction: row;
             gap: 23px;
             cursor: pointer;
             transition: all 300ms;
         }
 
         .bullet {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
             max-width: 71px;
-            width: 100%;
             height: 71px;
-            background-color: white;
             cursor: pointer;
             transition: all 300ms;
         }
@@ -116,12 +82,6 @@
             background: #0C0B0B;
         }
 
-        .left-box1 {
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
-
         @media (max-width: 1440px) {
             .right-img {
                 max-width: 700px;
@@ -131,15 +91,24 @@
             }
         }
 
-        @media (max-width: 1280px) {
+        @media (max-width: 1200px) {
             .row-hero {
                 gap: 40px;
                 flex-direction: column;
                 align-items: center;
             }
 
-            .text-frame{
+            .text-frame {
+                display: flex;
                 gap: 44px;
+            }
+
+            .head-text {
+                text-align: center;
+            }
+
+            .para {
+                text-align: center;
             }
         }
 
@@ -182,13 +151,15 @@
                 width: 100%;
             }
 
-            .text-frame{
+            .text-frame {
+                display: flex;
                 gap: 38px;
             }
         }
 
         @media (max-width: 576px) {
             .hvr-list {
+                display: flex;
                 gap: 15px;
                 padding: 12px;
                 align-items: center;
@@ -201,12 +172,14 @@
             .right-title {
                 font-size: 16px;
             }
-            
-            .row-hero{
+
+            .row-hero {
+                display: flex;
                 gap: 30px;
             }
 
-            .text-frame{
+            .text-frame {
+                display: flex;
                 gap: 32px;
             }
         }
