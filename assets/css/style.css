@@ -82,7 +82,7 @@
             background: #0C0B0B;
         }
 
-        @media (max-width: 1440px) {
+        @media (max-width: 1400px) {
             .right-img {
                 max-width: 700px;
                 height: auto;
@@ -99,7 +99,6 @@
             }
 
             .text-frame {
-                display: flex;
                 gap: 44px;
             }
 
@@ -152,7 +151,6 @@
             }
 
             .text-frame {
-                display: flex;
                 gap: 38px;
             }
         }
@@ -174,12 +172,10 @@
             }
 
             .row-hero {
-                display: flex;
                 gap: 30px;
             }
 
             .text-frame {
-                display: flex;
                 gap: 32px;
             }
         }
