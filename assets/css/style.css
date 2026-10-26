@@ -58,8 +58,10 @@
         }
 
         .hvr-list {
-            padding: 20px;
-            height: 92px;
+            padding-left: 13px;
+            padding-top: 10px;
+            padding-bottom: 11px;
+            /* height: 92px; */
             border-radius: 46px;
             background-color: rgba(21, 19, 19, 1);
             gap: 23px;
